@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(17 24 39);
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar Component */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  text-underline-offset: 2px;
+  text-decoration: underline;
+}
+
+/* Home Component */
+.hero-text {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  margin: 120px 0;
+}
+
+/* Login and Signup Component */
+.container {
+  width: 400px;
+  max-width: 480px;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 80px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 24px;
+}
+
+.form-control {
+  margin: 16px 0;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid rgb(229 231 235);
+  background-color: transparent;
+  border-radius: 8px;
+  outline: none;
+}
+
+input::placeholder {
+  color: rgb(107 114 128);
+}
+
+input:focus {
+  border: 1px solid rgb(107 114 128);
+}
+
+.submit-btn {
+  cursor: pointer;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 0;
+  background-image: linear-gradient(to right, #62b2ff, #6d9cff);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.submit-btn:hover {
+  background-image: linear-gradient(to right, #6d9cff, #62b2ff);
+}
+
+.account {
+  margin-top: 16px;
+}
+
+/* Profile Component */
+.profile {
+  color: white;
+  text-align: center;
+  margin: 120px 0;
+}
+
+.logOut-btn {
+  cursor: pointer;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 8px;
+  font-weight: 600;
+  border-radius: 4px;
+}
